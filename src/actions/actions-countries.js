@@ -24,7 +24,7 @@ export function getCountry(id) {
     }
 }
 
-export function seearchCountries(searchText) {
+export function searchCountries(searchText) {
     return {
         type: SEARCH_COUNTRIES,
         searchText

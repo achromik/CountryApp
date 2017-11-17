@@ -4,9 +4,9 @@ import { Router, hashHistory } from 'react-router';
 import { Provider } from 'react-redux';
 import store from './store/index';    
 import routes from './routes'
+import './country.css'
 
 import DevTools from './DevTools';
-import { getCountries } from '../src/actions/actions-countries';
 
 render(
     <Provider store = {store}>
@@ -19,5 +19,4 @@ render(
     , document.getElementById('root')
 );
 
-store.dispatch(getCountries());
 
